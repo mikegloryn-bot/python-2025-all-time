@@ -1,0 +1,64 @@
+#counter = 0
+#for i in range(10):
+   # num = int(input())
+   # if num > 10:
+    #    counter = counter + 1
+    #    print(counter)
+#counter1 = 0
+#counter2 = 0
+#for i in range(10):
+ #   num = int(input())
+ #   if num > 10:
+ #       counter1 = counter1 + 1
+ #       if num == 0:
+ #           counter2 = counter2 + 1
+  #          print(counter1, counter2)
+#total = 0
+#for i in range(10):
+ #   num = int(input())
+ #   if num > 10:
+  #      total = total + num
+  #      print(total)
+#total = 0
+#for i in range(1, 101):
+  #  total = total + i
+  # print(total)
+#total = 0
+#for i in range(10):
+ #   num = int(input())
+ #   total = total + num
+ #   average = total / 10
+ #   print(average)
+#mult = 1
+#for i in range(10):
+  #  num = int(input())
+   # if num > 10:
+   #     mult = mult * num
+   #     print(mult)
+#num = int(input())
+#flag = True
+#for i in range(2, num):
+   # if num % i == 0:
+ #       flag = False
+#if flag == True:
+ #   print('Chislo Prostoe')
+#else:
+  #  print('Chislo sostavnoe')
+#largest = -1
+#for i in range(10):
+   # num = int(input())
+#   if num > largest:
+  #     largest = num
+  #      print(largest)
+#smallest = int(input())
+#total = 0
+#for i in range(1, 6):
+  #  total += i
+  #  print(total)
+a = int(input())
+b = int(input())
+counter = 0
+for i in range(a, b):
+    if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
+        counter = counter + 1
+print(counter)
